@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/proyecto-ugc/web/src/components/Hero.css"],"sourcesContent":[".banner {\r\n  position: relative;\r\n\r\n  .banner-row {\r\n    overflow: hidden;\r\n    display: flex;\r\n  }\r\n}\r\n\r\n.float-text {\r\n  right: 0;\r\n  font-size: clamp(1rem, calc(10vw + 0.5rem), 1.25rem);\r\n  line-height: 1.1;\r\n}\r\n"],"names":[],"mappings":"AAAA;;;;AAGE;;;;;AAMF"}}]
-}

@@ -1,9 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file://D%3A/Documents/Development/Web/React/proyecto-ugc/web/src/components/Navigation.css"],"sourcesContent":["header {\r\n  animation: nav-show 1s ease-out both;\r\n  animation-timeline: scroll();\r\n  animation-range: 0 250px;\r\n\r\n  & > div,\r\n  & > nav > ul > li > a {\r\n    animation: text-change 1s ease-out both;\r\n    animation-timeline: scroll();\r\n    animation-range: 0 15px;\r\n  }\r\n}\r\n@keyframes nav-show {\r\n  from {\r\n    background-color: transparent;\r\n    opacity: 1;\r\n  }\r\n  to {\r\n    backdrop-filter: blur(10px);\r\n    webkit-backdrop-filter: blur(10px);\r\n    background-color: color-mix(in oklab, #e4f1e9 75%, transparent);\r\n    opacity: 1;\r\n  }\r\n}\r\n\r\n/* @keyframes text-change {\r\n  from {\r\n    color: currentColor;\r\n  }\r\n  to {\r\n    color: white;\r\n  }\r\n} */\r\n\r\n@media (prefers-reduced-motion) {\r\n  header {\r\n    transition: none;\r\n  }\r\n}\r\n"],"names":[],"mappings":"AAAA;;;;;;AAKE;;;;;;AAOF;;;;;;;;;;;;;;AAsBA;EACE"}},
-    {"offset": {"line": 32, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
-    {"offset": {"line": 35, "column": 0}, "map": {"version":3,"sources":["file://D%3A/Documents/Development/Web/React/proyecto-ugc/web/src/components/Hero.css"],"sourcesContent":[".banner {\r\n  position: relative;\r\n\r\n  .banner-row {\r\n    overflow: hidden;\r\n    display: flex;\r\n  }\r\n}\r\n\r\n.float-text {\r\n  right: 0;\r\n  font-size: clamp(1rem, calc(10vw + 0.5rem), 1.25rem);\r\n  line-height: 1.1;\r\n}\r\n"],"names":[],"mappings":"AAAA;;;;AAGE;;;;;AAMF"}},
-    {"offset": {"line": 49, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
-}

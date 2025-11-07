@@ -1,9 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file://D%3A/Documents/Development/Web/React/proyecto-ugc/web/src/components/brands.css"],"sourcesContent":["@keyframes scroll-left {\r\n  0% {\r\n    transform: translateX(0);\r\n  }\r\n  100% {\r\n    transform: translateX(-50%);\r\n  }\r\n}\r\n\r\n.animate-scroll {\r\n  animation: scroll-left 35s linear infinite;\r\n}\r\n\r\n.stop-animation:hover {\r\n  animation-play-state: paused;\r\n}\r\n"],"names":[],"mappings":"AAAA;;;;;;;;;;AASA;;;;AAIA"}},
-    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
-    {"offset": {"line": 21, "column": 0}, "map": {"version":3,"sources":["file://D%3A/Documents/Development/Web/React/proyecto-ugc/web/src/components/services.css"],"sourcesContent":["/* .image-wrapper img {\r\n  clip-path: path(\r\n    'M168.311 562.29C357.76 553.767 428.486 464.964 456.963 432.147C519.585 359.98 593.856 181.889 362.914 54.1071C131.973 -73.6749 34.9002 55.3801 15.2316 135.88C-12.6792 281.568 -21.1386 570.814 168.311 562.29Z'\r\n  );\r\n} */\r\n"],"names":[],"mappings":""}},
-    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
-}

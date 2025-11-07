@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/proyecto-ugc/web/src/components/Navigation.css"],"sourcesContent":["header {\r\n  animation: nav-show 1s ease-out both;\r\n  animation-timeline: scroll();\r\n  animation-range: 0 250px;\r\n\r\n  & > div,\r\n  & > nav > ul > li > a {\r\n    animation: text-change 1s ease-out both;\r\n    animation-timeline: scroll();\r\n    animation-range: 0 15px;\r\n  }\r\n}\r\n@keyframes nav-show {\r\n  from {\r\n    background-color: transparent;\r\n    opacity: 1;\r\n  }\r\n  to {\r\n    backdrop-filter: blur(10px);\r\n    webkit-backdrop-filter: blur(10px);\r\n    background-color: color-mix(in oklab, #F1EEE4 50%, transparent);\r\n    opacity: 1;\r\n  }\r\n}\r\n\r\n@media (prefers-reduced-motion) {\r\n  header {\r\n    transition: none;\r\n  }\r\n}\r\n"],"names":[],"mappings":"AAAA;;;;;;AAKE;;;;;;AAOF;;;;;;;;;;;;;;;;AAaA;EACE"}}]
-}

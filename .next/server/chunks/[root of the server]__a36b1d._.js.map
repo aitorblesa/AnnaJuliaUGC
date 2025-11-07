@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 55, "column": 0}, "map": {"version":3,"sources":["file://D%3A/Documents/Development/Web/React/proyecto-ugc/web/src/app/api/revalidate/route.js"],"sourcesContent":["import { NextResponse } from 'next/server';\r\n\r\nexport async function POST() {\r\n  try {\r\n    // Simula el revalidate de la raíz `/` manualmente\r\n    const revalidated = await fetch('http://localhost:3000/api/revalidate', {\r\n      next: { revalidate: true },\r\n    });\r\n\r\n    if (revalidated.ok) {\r\n      return NextResponse.json({ revalidated: true });\r\n    } else {\r\n      throw new Error('Fallo en la revalidación');\r\n    }\r\n  } catch (err) {\r\n    console.error('Error al revalidar:', err);\r\n    return NextResponse.json(\r\n      { error: 'Error al revalidar la página' },\r\n      { status: 500 },\r\n    );\r\n  }\r\n}\r\n"],"names":[],"mappings":";;;AAAA;;AAEO,eAAe;IACpB,IAAI;QACF,kDAAkD;QAClD,MAAM,cAAc,MAAM,MAAM,wCAAwC;YACtE,MAAM;gBAAE,YAAY;YAAK;QAC3B;QAEA,IAAI,YAAY,EAAE,EAAE;YAClB,OAAO,qOAAA,CAAA,eAAY,CAAC,IAAI,CAAC;gBAAE,aAAa;YAAK;QAC/C,OAAO;YACL,MAAM,IAAI,MAAM;QAClB;IACF,EAAE,OAAO,KAAK;QACZ,QAAQ,KAAK,CAAC,uBAAuB;QACrC,OAAO,qOAAA,CAAA,eAAY,CAAC,IAAI,CACtB;YAAE,OAAO;QAA+B,GACxC;YAAE,QAAQ;QAAI;IAElB;AACF"}},
-    {"offset": {"line": 84, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
-}
